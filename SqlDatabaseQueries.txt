@@ -1,7 +1,7 @@
 
-create database Movie;
+create database Movies;
 /*create table query*/
-create table Movies (movieID int identity primary key ,name varchar(100),actorName varchar(100),actressName varchar(100),director varchar(100),yearOfRelease Date)
+create table Movie (movieID int identity primary key ,name varchar(100),actorName varchar(100),actressName varchar(100),director varchar(100),yearOfRelease Date)
 /*insert table query*/
 insert into Movies(name,actorName,actressName,director,yearOfRelease) Values('Bahubali','sagar','rani','jmstudios','Feb 18 2022')
 /*select table query*/
